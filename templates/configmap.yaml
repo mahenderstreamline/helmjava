@@ -5,5 +5,5 @@ metadata:
 data:
  application.yaml: |
   app:
-   greeting: Kube Helm
+   greeting: Kube Helm ver 2.0
  
