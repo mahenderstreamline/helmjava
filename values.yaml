@@ -98,3 +98,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+springprops: |
+  app:
+    greeting: Helm Kube from values

@@ -3,7 +3,6 @@ kind: ConfigMap
 metadata:
  name: spring-application-props
 data:
- application.yaml: |
-  app:
-   greeting: Kube Helm ver 2.0
+ application.yaml: |-
+  {{ .Values.springprops | indent 4 }}
  
