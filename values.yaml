@@ -100,4 +100,4 @@ tolerations: []
 affinity: {}
 springprops: |-
   app:
-     greeting: Helm Kube from values
+     greeting: Helm Kube from values replica set is now 2
